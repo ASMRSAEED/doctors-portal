@@ -8,11 +8,11 @@ const Banner = () => {
         <div
             className='hero min-h-screen'
             style={{ backgroundImage: `url(${bg})` }}>
-            <div className='hero-content flex-col flex flex-row justify-between lg:flex-row-reverse'>
+            <div className='hero-content flex flex-row justify-between lg:flex-row-reverse'>
                 <img
                     src={chair}
                     alt='doctors portal'
-                    className='max-w-sm rounded-lg shadow-2xl basis-2/4'
+                    className='max-w-lg rounded-lg shadow-2xl basis-2/4'
                 />
                 <div className='basis-2/4'>
                     <h1 className='text-5xl font-bold'>Your New Smile Starts Here!</h1>
